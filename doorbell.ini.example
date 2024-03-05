@@ -1,0 +1,13 @@
+[MQTT]
+mqtt broker = 127.0.0.1
+mqtt port = 1883
+mqtt topic = frigate/events
+mqtt username = abc
+mqtt password = xyz
+
+[Camera]
+target camera = frontDoor
+target zone = atDoor
+
+[Frigate]
+frigate api base url = http://127.0.0.1:10500
